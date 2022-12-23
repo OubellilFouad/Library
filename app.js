@@ -14,3 +14,13 @@ const nameInput = form.querySelector('#name');
 const authorInput = form.querySelector('#author');
 const pagesInput = form.querySelector('#pages');
 const isReadInput = form.querySelector('#read');
+
+document.addEventListener('click', (event) => {
+  const formsideClick = !formContent.contains(event.target);
+  const addClick = add.contains(event.target);
+  if (addClick) {
+    form.classList.remove('none');
+  } else if (formsideClick) {
+    form.classList.add('none');
+  }
+});
