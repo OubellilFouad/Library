@@ -1,5 +1,5 @@
 /* eslint-disable no-param-reassign */
-const i = 0;
+let i = 0;
 /* eslint-disable no-plusplus */
 /* eslint-disable max-len */
 /* eslint-disable no-unused-expressions */
