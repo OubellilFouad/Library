@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <form action="" id="addForm" class="none">
+            <div class="formCon">
+                <h3>Create a book</h3>
+                <input type="text" id="name" placeholder="Name">
+                <input type="text" id="author" placeholder="Author">
+                <input type="text" id="pages" placeholder="Number of pages">
+                <div class="input">
+                    <label for="read">Did you read this book yet?</label>
+                    <input type="checkbox" id="read">
+                </div>
+                <button class="formBtn" type="submit">Create</button>
+                </div>
+        </form>
+        <header>
+            <h2>LIBRARY</h2>
+        </header>
+        <main>
+            <button class="add">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z" /></svg>
+                Add book
+            </button>
+            <div class="library">
+
+            </div>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
